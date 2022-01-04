@@ -14,7 +14,7 @@ export default function Head() {
     return (
         <div>
             <nav className='bg-black text-white h-16 flex justify-between items-center z-50 sticky border-b-[1px] border-white'>
-                <img className='w-20 p-2 h-16 cursor-pointer' src='logoNew.png' alt='logo'></img>
+                <img className='w-20 p-2 h-16 cursor-pointer' src='logo.png' alt='logo'></img>
                 <ul className='sm:flex hidden'>
                     <li className='p-2'><a className='hover:text-yellow-400' href='#'>Home</a></li>
                     <li className='p-2'><a className='hover:text-yellow-400' href='#'>About</a></li>

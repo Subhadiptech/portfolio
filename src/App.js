@@ -7,7 +7,6 @@ function App() {
   return (
     <div className="app">
       <Head/>
-
       <Hero/>
     </div>
   );
