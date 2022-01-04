@@ -4,7 +4,7 @@ export default function Hero() {
 
 
     return (
-        <div className='mt-12'>
+        <div className='mt-16'>
             <main className='hidden bg-transparent z-50 items-center justify-between custom-shape px-8 sm:flex'>
 
                 <article className='text-white'>

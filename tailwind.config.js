@@ -6,7 +6,8 @@ module.exports = {
     extend: {
       fontFamily:{
         Dance:['Dancing Script']
-      }
+      },
+      
     },
   },
   plugins: [],
