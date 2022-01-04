@@ -3,7 +3,7 @@ import ProjectItem from './ProjectItem'
 
 export default function Project() {
     return (
-        <div className='bg-black mt-8 pb-8'>
+        <div className='bg-transaprent mt-8 pb-8'>
             <main className='block text-center'>
 
                 <h1 className='mx-auto capitalize text-gray-400 text-5xl'>my Projects</h1>

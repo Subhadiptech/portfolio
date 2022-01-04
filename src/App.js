@@ -8,7 +8,7 @@ import Quote from './components/Quote';
 
 function App() {
   return (
-    <div className="bg-black">
+    <div className="radial-gradient">
       <Head/>
       <Hero/>
       <Quote quote='Follow your passion'/>

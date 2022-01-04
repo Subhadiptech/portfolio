@@ -5,7 +5,7 @@ export default function Hero() {
 
     return (
         <div className='mt-12'>
-            <main className='hidden bg-black z-50 items-center justify-between custom-shape px-8 sm:flex'>
+            <main className='hidden bg-transparent z-50 items-center justify-between custom-shape px-8 sm:flex'>
 
                 <article className='text-white'>
                     <h1 className='text-3xl pb-2 capitalize'>Hello, I'm <span className='text-yellow-400 capitalize'>Subhadip</span></h1>
@@ -19,7 +19,7 @@ export default function Hero() {
                 <img className='object-fill h-[480px]' src='heroPage.png' alt='error'></img>
 
             </main>
-            <main className='sm:hidden bg-black z-50 items-center justify-between custom-shape pb-2 px-8 flex flex-col-reverse'>
+            <main className='sm:hidden bg-transparent z-50 items-center justify-between custom-shape pb-2 px-8 flex flex-col-reverse'>
 
                 <article className='text-white'>
                     <h1 className='mx-auto text-3xl pb-2 capitalize text-center'>Hello, I'm <span className='text-yellow-400 capitalize'>Subhadip</span></h1>
