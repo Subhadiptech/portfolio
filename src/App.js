@@ -3,6 +3,7 @@ import './App.css';
 import About from './components/About';
 import Head from './components/Head';
 import Hero from './components/Hero';
+import Project from './components/Project';
 import Quote from './components/Quote';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Quote quote='Follow your passion'/>
       <About/>
       <Quote quote='think twice code once'/>
+      <Project/>
     </div>
   );
 }
