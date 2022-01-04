@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function Hero() {
 
-    //make for mobile first without sm 
+    
     return (
-        <div>
+        <div className='mt-12'>
         <main className='hidden bg-black z-50 items-center justify-between custom-shape px-8 sm:flex'>
 
             <article className='text-white'>
