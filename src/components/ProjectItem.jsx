@@ -4,7 +4,7 @@ export default function ProjectItem(props) {
     return (
         <div>
         <section className='mt-16 flex mx-4'>
-        <aside className='block pr-12'>
+        <aside className='block pr-12 sm:pr-44'>
         <h1 className='capitalize text-white text-3xl'>{props.title}</h1>
         <p className='capitalize text-white mt-12'>{props.description}</p>
 
@@ -12,7 +12,7 @@ export default function ProjectItem(props) {
         </aside>
 
         <section>
-        <img src={props.imageUrl} alt='broken-image' className=''></img>
+        <img src={props.imageUrl} alt='broken-image' className='sm:h-80 sm:w-64 sm:mr-32 p-8'></img>
         </section>
         
         </section>
