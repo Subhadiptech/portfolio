@@ -8,7 +8,7 @@ export default function ProjectItem(props) {
         <h1 className='capitalize text-white text-3xl'>{props.title}</h1>
         <p className='capitalize text-white mt-12'>{props.description}</p>
 
-        <button className='text-black font-bold bg-yellow-400 py-1 px-4 mt-8'><a href={props.url} target='_black'>Open Project</a></button>
+        <button className='text-white bg-transparent border-2 border-yellow-400 py-1 px-4 mt-8 hover:text-black hover:bg-yellow-400'><a href={props.url} target='_black'>Open Project</a></button>
         </aside>
 
         <section>
