@@ -10,7 +10,7 @@ import Quote from './components/Quote';
 
 function App() {
   return (
-    <div className="sm:radial-gradient bg-black">
+    <div className="sm:radial-gradient bg-black selection:bg-pink-600 font-Main">
       <Head/>
       <Hero/>
       <Quote quote='Follow your passion'/>

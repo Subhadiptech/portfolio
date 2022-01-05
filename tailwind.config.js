@@ -5,7 +5,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-        Dance:['Dancing Script']
+        Dance:['Dancing Script'],
+        Main:['Nunito'],
+        Name:['Calistoga']
       },
       
     },
