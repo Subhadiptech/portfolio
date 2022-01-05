@@ -2,6 +2,7 @@
 import './App.css';
 import About from './components/About';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 import Head from './components/Head';
 import Hero from './components/Hero';
 import Project from './components/Project';
@@ -18,6 +19,7 @@ function App() {
       <Project/>
       <Quote quote='comparison destroys personality'/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }

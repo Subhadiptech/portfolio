@@ -16,7 +16,7 @@ export default function Contact() {
         <main className='mx-4'>
         
         <article className='mt-12 radial-gradient mx-auto sm:mx-16 rounded-md z-50 shadow-md shadow-gray-900 py-8 px-4'>
-        <h1 className='text-white text-xl text-center mt-2'>Fill the details and send the message to me!</h1>
+        <h1 className='text-white text-md sm:text-lg text-center mt-2'>Fill the details if you want to have a conversation with me!</h1>
 
         <form className='flex flex-col'>
 
@@ -39,9 +39,9 @@ export default function Contact() {
         <section className='text-center mt-4'>
         <h1 className='text-white capitalize'>or connect me on</h1>
         <ul className='flex justify-center items-center'>
-        <li><a href='https://www.linkedin.com/in/subhadipdhn/' target='_blank' className=''><GrLinkedin className='fill-white py-2 h-8 w-8 mt-4 hover:fill-blue-700' /></a></li>
-        <li><a href='https://twitter.com/Subhadipdhn' target='_blank' className=''><GrTwitter className='fill-white py-2 h-8 mt-4 w-8 hover:fill-sky-500' /></a></li>
-        <li><a href='https://github.com/Subhadiptech' target='_blank' className=''><GrGithub className='fill-white py-2 h-8 mt-4 w-8 hover:fill-slate-600' /></a></li>
+        <li><a href='https://www.linkedin.com/in/subhadipdhn/' target='_blank'><GrLinkedin className='fill-white py-2 h-8 w-8 mt-4 hover:fill-blue-700' /></a></li>
+        <li><a href='https://twitter.com/Subhadipdhn' target='_blank'><GrTwitter className='fill-white py-2 h-8 mt-4 w-8 hover:fill-sky-500' /></a></li>
+        <li><a href='https://github.com/Subhadiptech' target='_blank'><GrGithub className='fill-white py-2 h-8 mt-4 w-8 hover:fill-slate-600' /></a></li>
         </ul>
        
         </section>

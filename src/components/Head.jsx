@@ -14,7 +14,7 @@ export default function Head() {
     return (
         <div className='relative'>
             <nav className='sm:fixed z-50 sm:top-0 sm:left-0 sm:right-0 bg-black text-white h-16 flex justify-between items-center'>
-                <img className='w-20 p-2 h-16 cursor-pointer' src='logo.png' alt='logo'></img>
+                <img className='w-20 p-2 h-16 cursor-pointer' src='logoNoBg.png' alt='logo'></img>
                 <ul className='sm:flex hidden'>
                     <li className='p-2'><a className='hover:text-yellow-400' href='#'>Home</a></li>
                     <li className='p-2'><a className='hover:text-yellow-400' href='#'>About</a></li>
