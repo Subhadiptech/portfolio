@@ -20,7 +20,7 @@ export default function Head() {
                     <li className='p-2'><a className='hover:text-yellow-400' href='#'>About</a></li>
                     <li className='p-2'><a className='hover:text-yellow-400' href='#'>Projects</a></li>
                     <li className='p-2'><a className='hover:text-yellow-400' href='#'>Blog</a></li>
-                    <button className='bg-yellow-400 hover:bg-transparent hover:border-2 hover:border-yellow-400 p-2 mr-4 rounded align-middle text-black hover:text-white'>Contact Me</button>
+                    <button className='bg-yellow-400 hover:bg-transparent hover:border-2 ml-2 hover:border-yellow-400 p-2 mr-4 rounded align-middle text-black hover:text-white'>Contact Me</button>
                 </ul>
                 <button className='sm:hidden' onClick={toggleMenu}><GiHamburgerMenu className='sm:hidden mx-4' /></button>
 
