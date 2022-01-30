@@ -3,7 +3,7 @@ import { GiHamburgerMenu } from 'react-icons/gi'
 import MenuList from './MenuList'
 import {BrowserRouter as Router} from "react-router-dom"
 import { HashLink as L } from 'react-router-hash-link'
-import { Scrollbars } from 'react-custom-scrollbars';
+
 
 export default function Head() {
 
