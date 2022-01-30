@@ -3,6 +3,7 @@ import { GiHamburgerMenu } from 'react-icons/gi'
 import MenuList from './MenuList'
 import {BrowserRouter as Router} from "react-router-dom"
 import { HashLink as L } from 'react-router-hash-link'
+import { Scrollbars } from 'react-custom-scrollbars';
 
 export default function Head() {
 
@@ -15,8 +16,9 @@ export default function Head() {
 
     return (
         <Router>
+        
             <div className='relative'>
-                <nav className='sm:fixed z-50 sm:top-0 sm:left-0 sm:right-0 bg-black text-white h-16 flex justify-between items-center'>
+                <nav className='sm:fixed sm:top-0 sm:left-0 sm:right-0 radial-gradient text-white h-16 flex justify-between items-center'>
                     <img className='w-24 p-2 h-20 cursor-pointer' src='logoNoBg.png' alt='logo'></img>
                     <ul className='sm:flex hidden'>
                         <li className='p-2'><L className='hover:text-yellow-400' to='#home' smooth>Home</L></li>

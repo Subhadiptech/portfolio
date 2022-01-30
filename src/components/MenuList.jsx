@@ -1,5 +1,4 @@
 import React from 'react'
-import {BrowserRouter as Router} from "react-router-dom"
 import { HashLink as L } from 'react-router-hash-link'
 
 export default function MenuList() {

@@ -1,6 +1,6 @@
 import React from 'react'
 import Typist from 'react-typist';
-
+import { HashLink as L } from 'react-router-hash-link'
 export default function Hero() {
 
 
@@ -9,12 +9,12 @@ export default function Hero() {
     
             <main className='hidden bg-transparent z-50 items-center justify-between px-8 sm:flex'>
 
-                <article className='m-auto text-white ml-32 z-50'>
+                <article className='m-auto text-white ml-32'>
                     <h1 className='sm:text-7xl text-3xl pb-2 capitalize'>Hello, I'm <span className='text-yellow-400 capitalize sm:text-7xl text-3xl font-Name'>Subhadip</span></h1>
                     <Typist className='sm:text-3xl text-md mt-4 capitalize'>Android Developer</Typist>
                     <section className='flex mt-4'>
                         <button className='bg-transparent border-2 border-yellow-400 p-2 hover:bg-yellow-400 hover:text-black'>About Me</button>
-                        <button className='bg-yellow-400 px-2 hover:bg-transparent text-black hover:text-white hover:border-2 hover:border-yellow-400 ml-4 font-bold'>Download CV</button>
+                        <button className='bg-yellow-400 px-2 hover:bg-transparent text-black hover:text-white hover:border-2 hover:border-yellow-400 ml-4 font-bold'><a href='CV_NEW.pdf' download>Download CV</a></button>
                     </section>
                 </article>
                 <img className='object-fill h-[500px]' src='heroPage.png' alt='error'></img>
