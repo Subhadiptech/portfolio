@@ -3,8 +3,7 @@ import { GrLinkedin,GrTwitter,GrGithub } from 'react-icons/gr'
 
 export default function Contact() {
     return (
-        <div className='mt-8 pb-8 bg-transaprent '>
-
+        <div className='mt-8 pb-8 bg-transaprent' id='contact'>
         
         <main className='block text-center'>
 
@@ -15,7 +14,7 @@ export default function Contact() {
 
         <main className='mx-4'>
         
-        <article className='mt-12 radial-gradient mx-4 sm:mx-32 rounded-md z-50 shadow-md shadow-gray-900 py-8 px-4'>
+        <article className='mt-12 radial-gradient mx-4 sm:mx-32 rounded-md z-50 shadow-xl py-8 px-4'>
         <h1 className='text-white text-md sm:text-lg text-center mt-2'>Fill the details if you want to have a conversation with me!</h1>
 
         <form className='flex flex-col'>

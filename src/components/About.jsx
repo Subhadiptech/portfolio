@@ -4,7 +4,7 @@ import { gsap } from "gsap";
 
 export default function About() {
     return (
-        <main className='bg-transparent sm:flex block text-white mt-16 sm:mx-4 pb-4 mx-2'>
+        <main className='bg-transparent sm:flex block text-white mt-16 sm:mx-4 pb-4 mx-2' id='about'>
         
             <section className='sm:mr-4 sm:w-[70%] sm:pr-28'>
                 <h1 className='text-gray-400 text-5xl capitalize tracking-wider'>About Me</h1>

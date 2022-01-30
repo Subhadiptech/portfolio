@@ -5,7 +5,7 @@ export default function Hero() {
 
 
     return (
-        <div className='mt-16'>
+        <div className='mt-16' id='home'>
     
             <main className='hidden bg-transparent z-50 items-center justify-between px-8 sm:flex'>
 
