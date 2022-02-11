@@ -9,11 +9,7 @@ export default function Project() {
                 <h1 className='text-center capitalize text-gray-400 text-5xl tracking-wider'>my Projects</h1>
                 <div className='h-1 w-44 bg-white mt-4 mx-auto'></div></main>
 
-           <ProjectItem title='MentOR' description='Hello World likhte likhte thak gya hu vro abb kuch or sikhna hai lekin mere se nhi ho payega kuyki mai noob hu lekin koshish jari hai. Sun ke dukh huya toh ro lena. Thanks' url='https://github.com/RahulSoni0/MentOR' imageUrl='demoProject.gif'/>
-
-           <ProjectItem title='MentOR' description='Hello World likhte likhte thak gya hu vro abb kuch or sikhna hai lekin mere se nhi ho payega kuyki mai noob hu lekin koshish jari hai. Sun ke dukh huya toh ro lena. Thanks' url='https://github.com/RahulSoni0/MentOR' imageUrl='demoProject.gif'/>
-
-
+                <ProjectItem/>
         </div>
     )
 }

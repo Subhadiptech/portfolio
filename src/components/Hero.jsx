@@ -13,8 +13,8 @@ export default function Hero() {
                     <h1 className='sm:text-7xl text-3xl pb-2 capitalize'>Hello, I'm <span className='text-yellow-400 capitalize sm:text-7xl text-3xl font-Name'>Subhadip</span></h1>
                     <Typist className='sm:text-3xl text-md mt-4 capitalize'>Android Developer</Typist>
                     <section className='flex mt-4'>
-                        <button className='bg-transparent border-2 border-yellow-400 p-2 hover:bg-yellow-400 hover:text-black'>About Me</button>
-                        <button className='bg-yellow-400 px-2 hover:bg-transparent text-black hover:text-white hover:border-2 hover:border-yellow-400 ml-4 font-bold'><a href='CV_NEW.pdf' download>Download CV</a></button>
+                        <button className='bg-transparent border-2 border-yellow-400 p-2 hover:bg-yellow-400 hover:text-black hover:font-bold'>About Me</button>
+                        <button className='bg-yellow-400 border-2 border-transparent px-2 hover:bg-transparent text-black hover:text-white hover:border-2 hover:border-yellow-400 ml-4 font-bold hover:font-normal'><a href='CV_NEW.pdf' download>Download CV</a></button>
                     </section>
                 </article>
                 <img className='object-fill h-[500px]' src='heroPage.png' alt='error'></img>
@@ -28,8 +28,8 @@ export default function Hero() {
                     <h1 className='text-3xl pb-2 capitalize text-center'>Hello, I'm <span className='text-yellow-400 capitalize font-Name'>Subhadip</span></h1>
                     <Typist className='text-lg pb-2 capitalize text-center'>Android Developer</Typist>
                     <section className='flex justify-center pt-4'>
-                        <button className='bg-transparent border-2 border-yellow-400 p-2 hover:bg-yellow-400 hover:text-black'>About Me</button>
-                        <button className='bg-yellow-400 px-2 hover:bg-transparent text-black hover:text-white hover:border-2 hover:border-yellow-400 ml-4 font-bold'>Download CV</button>
+                        <button className='bg-transparent border-2 border-yellow-400 p-2 hover:bg-yellow-400 hover:text-black hover:font-bold'>About Me</button>
+                        <button className='bg-yellow-400 border-2 border-transparent px-2 hover:bg-transparent text-black hover:text-white hover:border-2 hover:border-yellow-400 ml-4 font-bold'>Download CV</button>
                     </section>
                 </article>
 
