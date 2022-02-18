@@ -8,18 +8,19 @@ import Hero from './components/Hero';
 import Project from './components/Project';
 import Quote from './components/Quote';
 
+
 function App() {
   return (
-    <div className="custom-bg selection:bg-pink-600 font-Main app">
-      <Head/>
-      <Hero/>
-      <Quote quote='Follow your passion'/>
-      <About/>
-      <Quote quote='think twice code once'/>
-      <Project/>
-      <Quote quote='comparison destroys personality'/>
-      <Contact/>
-      <Footer/>
+    <div className="custom-bg no-select font-Main app">
+    <Head/>
+    <Hero/>
+    <Quote quote='Follow your passion'/>
+    <About/>
+    <Quote quote='think twice code once'/>
+    <Project/>
+    <Quote quote='comparison destroys personality'/>
+    <Contact/>
+    <Footer/>
     </div>
   );
 }

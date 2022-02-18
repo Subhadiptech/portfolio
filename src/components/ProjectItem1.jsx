@@ -1,6 +1,7 @@
 import React from 'react';
 import { TagCloud } from 'react-tagcloud'
 import { GrGithub } from 'react-icons/gr';
+import Tilt from 'react-parallax-tilt';
 
 export default function ProjectItem1(props) {
     const data = [
@@ -10,7 +11,8 @@ export default function ProjectItem1(props) {
         { value: 'Expressjs', count: 12 }
       ]
     return (
-        <div className='custom-bg w-96 sm:w-92 h-64 border-t-2 border-yellow-500 drop-shadow-lg shadow-black p-2 overflow-hidden mt-4 mx-4 hover:scale-105 transition ease-out delay-250 hover:transition hover:ease-in hover:delay-200'>
+        <Tilt>
+        <div className='custom-bg w-96 sm:w-92 h-64 border-t-2 border-yellow-500 drop-shadow-lg shadow-black p-2 overflow-hidden mt-4 mx-4'>
            
             <aside className='flex flex-col items-start ml-4 mt-2'>
             <h1 className='uppercase tracking-wide text-yellow-500'>Web Development</h1>
@@ -32,6 +34,6 @@ export default function ProjectItem1(props) {
           <a href={props.path} target='_blank'><GrGithub className='fill-white h-8 w-8 cursor-pointer hover:fill-yellow-500'></GrGithub></a>
             </section>
 
-        </div>
+        </div></Tilt>
     )
 }

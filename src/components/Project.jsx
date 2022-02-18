@@ -14,15 +14,12 @@ export default function Project() {
                 <ProjectItem path='https://github.com/' title='Project Name' desc='My main area of expertise currently is in front-end web development(client side of the web)...'/>
                 <ProjectItem1 path='https://github.com/' title='Project Name' desc='My main area of expertise currently is in front-end web development(client side of the web)...'/>
                 <ProjectItem2 path='https://github.com/' title='Project Name' desc='My main area of expertise currently is in front-end web development(client side of the web)...'/>
+                <ProjectItem1 path='https://github.com/' title='Project Name' desc='My main area of expertise currently is in front-end web development(client side of the web)...'/>
+                <ProjectItem path='https://github.com/' title='Project Name' desc='My main area of expertise currently is in front-end web development(client side of the web)...'/>
+                <ProjectItem2 path='https://github.com/' title='Project Name' desc='My main area of expertise currently is in front-end web development(client side of the web)...'/>
                
             </section>
-            <section className='flex justify-evenly mx-4 mt-4 flex-wrap'>
-
-            <ProjectItem1 path='https://github.com/' title='Project Name' desc='My main area of expertise currently is in front-end web development(client side of the web)...'/>
-            <ProjectItem2 path='https://github.com/' title='Project Name' desc='My main area of expertise currently is in front-end web development(client side of the web)...'/>
-            <ProjectItem path='https://github.com/' title='Project Name' desc='My main area of expertise currently is in front-end web development(client side of the web)...'/>
-            
-            </section>
+           
         </div>
     )
 }

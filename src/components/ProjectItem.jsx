@@ -1,6 +1,7 @@
 import React from 'react'
 import { GrGithub } from 'react-icons/gr'
 import { TagCloud } from 'react-tagcloud'
+import Tilt from 'react-parallax-tilt';
 
 
 export default function ProjectItem(props) {
@@ -13,12 +14,15 @@ export default function ProjectItem(props) {
       ]
 
     return (
-        <div className='custom-bg w-96 sm:w-92 h-64 border-t-2 border-red-500 drop-shadow-lg shadow-black p-2 overflow-hidden mt-4 mx-4 hover:scale-105 transition ease-out delay-250 hover:transition hover:ease-in hover:delay-200'>
+
+      <Tilt>
+
+        <div className='custom-bg w-96 sm:w-92 h-64 border-t-2 border-red-600 drop-shadow-lg shadow-black p-2 overflow-hidden mt-4 mx-4'>
 
         
         <aside className='flex flex-col items-start ml-4 mt-4'>
-        <h1 className='uppercase tracking-wide text-red-500'>Android Development</h1>
-        <h1 className='text-white hover:text-red-500 capitalize text-2xl sm:text-4xl tracking-wide font-bold'>{props.title}</h1>
+        <h1 className='uppercase tracking-wide text-red-600'>Android Development</h1>
+        <h1 className='text-white hover:text-red-600 capitalize text-2xl sm:text-4xl tracking-wide font-bold'>{props.title}</h1>
         </aside>
         <p className='text-gray-300 mx-4 mt-4'>
         {props.desc}</p>
@@ -36,5 +40,6 @@ export default function ProjectItem(props) {
            
 
         </div>
+        </Tilt>
     )
 }
