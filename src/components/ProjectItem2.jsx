@@ -10,7 +10,7 @@ export default function ProjectItem2(props) {
         
       ]
     return (
-        <div className='custom-bg w-96 sm:w-80 h-64 border-t-2 border-blue-500 drop-shadow-lg shadow-black p-2 overflow-hidden mt-4 mx-4 hover:scale-105 transition ease-out delay-250 hover:transition hover:ease-in hover:delay-200'>
+        <div className='custom-bg w-96 sm:w-92 h-64 border-t-2 border-blue-500 drop-shadow-lg shadow-black p-2 overflow-hidden mt-4 mx-4 hover:scale-105 transition ease-out delay-250 hover:transition hover:ease-in hover:delay-200'>
            
             <aside className='flex flex-col items-start ml-4 mt-2'>
             <h1 className='uppercase tracking-wide text-blue-500'>React Application</h1>
