@@ -11,16 +11,16 @@ import Quote from './components/Quote';
 
 function App() {
   return (
-    <div className="custom-bg no-select font-Main app">
-    <Head/>
-    <Hero/>
-    <Quote quote='Follow your passion'/>
-    <About/>
-    <Quote quote='think twice code once'/>
-    <Project/>
-    <Quote quote='comparison destroys personality'/>
-    <Contact/>
-    <Footer/>
+    <div className="custom-bg no-select font-Main app overflow-hidden">
+      <Head />
+      <Hero />
+      <Quote quote='Follow your passion' />
+    
+      <Quote quote='think twice code once' />
+      <Project />
+      <Quote quote='comparison destroys personality' />
+      <Contact />
+      <Footer />
     </div>
   );
 }

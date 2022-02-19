@@ -1,10 +1,12 @@
 import React from 'react'
 import { HashLink as L } from 'react-router-hash-link'
+import { motion } from 'framer-motion'
 
 export default function MenuList() {
     return (
         
-            <div className='radial-gradient pb-2'>
+            <div className='radial-gradient pb-2' 
+           >
 
                 <ul className='flex flex-col justify-center items-center text-white'>
                     <li className='p-2'><L className='align-center' to='#home' smooth>Home</L></li>

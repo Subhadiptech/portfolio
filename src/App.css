@@ -28,3 +28,46 @@
    -ms-user-select: none; /* Internet Explorer/Edge */
 }
 
+
+.custom-shadow{
+    
+    box-shadow: 1.2px 2.4px 2.4px hsl(0deg 0% 0% / 0.46);
+
+}
+
+.text-hover{
+    /* animation:anim 0.7s ease-in-out 1s infinite; */
+    color: aqua;
+}
+.text-hover:hover{
+    /* animation:anim 0.7s ease-in-out 1s infinite; */
+    color: rgb(38, 214, 214);
+    transition-property: all;
+    transform: perspective(1.2);    
+    transition-delay: 20ms;
+}
+/* 
+@keyframes anim {
+
+    0%{
+        transform:scale(1.2,0.8);
+    }
+    20%{
+        transform:scale(0.7,1.3);
+    }
+    40%{
+        transform:scale(1.2,0.7);
+    }
+    60%{
+        transform:scale(0.6,1.2);
+    }
+    80%{
+        transform:scale(1.3,0.8);
+    }
+    100%{
+        transform:scale(1,1);
+    }
+    
+    
+}
+ */

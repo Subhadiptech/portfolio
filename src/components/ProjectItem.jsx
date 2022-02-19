@@ -17,7 +17,7 @@ export default function ProjectItem(props) {
 
       <Tilt>
 
-        <div className='custom-bg w-96 sm:w-92 h-64 border-t-2 border-red-600 drop-shadow-lg shadow-black p-2 overflow-hidden mt-4 mx-4'>
+        <div className='custom-bg w-92 sm:w-92 h-64 border-t-2 border-red-600 drop-shadow-lg custom-shadow p-2 overflow-hidden mt-4 mx-4'>
 
         
         <aside className='flex flex-col items-start ml-4 mt-4'>
@@ -34,7 +34,7 @@ export default function ProjectItem(props) {
         tags={data}
       />
        
-        <a href={props.path} target='_blank'><GrGithub className='fill-white h-8 w-8 cursor-pointer hover:fill-red-500'></GrGithub></a>
+        <a href={props.path} target='_blank'><GrGithub className='fill-white h-8 w-8 cursor-pointer hover:fill-red-600'></GrGithub></a>
         </section>
 
            

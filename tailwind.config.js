@@ -7,7 +7,8 @@ module.exports = {
       fontFamily:{
         Dance:['Dancing Script'],
         Main:['Nunito'],
-        Name:['Calistoga']
+        Name:['Calistoga'],
+        head:['Anton', 'sans-serif']
       },
       
     },

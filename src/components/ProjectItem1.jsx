@@ -12,7 +12,7 @@ export default function ProjectItem1(props) {
       ]
     return (
         <Tilt>
-        <div className='custom-bg w-96 sm:w-92 h-64 border-t-2 border-yellow-500 drop-shadow-lg shadow-black p-2 overflow-hidden mt-4 mx-4'>
+        <div className='custom-bg w-92 sm:w-92 h-64 border-t-2 border-yellow-500 drop-shadow-lg custom-shadow p-2 overflow-hidden mt-4 mx-4'>
            
             <aside className='flex flex-col items-start ml-4 mt-2'>
             <h1 className='uppercase tracking-wide text-yellow-500'>Web Development</h1>
