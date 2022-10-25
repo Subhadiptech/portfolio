@@ -13,7 +13,7 @@ export default function ProjectItem2(props) {
     return (
 
         <Tilt>
-            <div className='custom-bg w-92 sm:w-92 h-64 border-t-2 border-sky-500 drop-shadow-lg custom-shadow p-2 overflow-hidden mt-4 mx-4'>
+            <div className='custom-bg py-8 sw-[32rem] sm:w-[32rem] border-t-2 border-sky-500 drop-shadow-lg custom-shadow px-2 mx-4 overflow-hidden mt-4'>
 
                 <aside className='flex flex-col items-start ml-4 mt-2'>
                     <h1 className='uppercase tracking-wide text-sky-500'>React Application</h1>

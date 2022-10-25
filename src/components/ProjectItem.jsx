@@ -17,9 +17,8 @@ export default function ProjectItem(props) {
 
       <Tilt>
 
-        <div className='custom-bg w-92 sm:w-92 h-64 border-t-2 border-red-600 drop-shadow-lg custom-shadow p-2 overflow-hidden mt-4 mx-4'>
+        <div className='custom-bg py-8 w-[32rem] sm:w-[32rem] border-t-2 border-red-600 drop-shadow-lg custom-shadow px-2 overflow-hidden mt-4 mx-4'>
 
-        
         <aside className='flex flex-col items-start ml-4 mt-4'>
         <h1 className='uppercase tracking-wide text-red-600'>Android Development</h1>
         <h1 className='text-white hover:text-red-600 capitalize text-2xl sm:text-4xl tracking-wide font-bold'>{props.title}</h1>

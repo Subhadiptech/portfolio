@@ -8,14 +8,13 @@ export default function Project() {
         <div className='bg-transaprent mt-8 pb-8' id='projects'>
             <main className='block text-center'>
 
-                <h1 className='text-center capitalize text-gray-400 text-5xl tracking-wider'>my Projects</h1>
-                <div className='h-1 w-44 bg-white mt-4 mx-auto'></div></main>
-            <section className='flex justify-evenly mx-2 sm:mx-4 mt-4 flex-wrap'>
-                <ProjectItem path='https://github.com/' title='Project Name' desc='My main area of expertise currently is in front-end web development(client side of the web)...' />
+            <p className='text-4xl sm:text-8xl text-sky-500'>my</p>
+            <p className='text-6xl sm:text-[10rem] text-yellow-400 mt-[-24px] ml-12 sm:mt-[-64px] sm:ml-16'>Work</p>
+        </main>
+            <section className='flex justify-center mx-2 sm:mx-4 mt-8 flex-wrap'>
                 <ProjectItem1 path='https://github.com/' title='Project Name' desc='My main area of expertise currently is in front-end web development(client side of the web)...' />
                 <ProjectItem2 path='https://github.com/' title='Project Name' desc='My main area of expertise currently is in front-end web development(client side of the web)...' />
                 <ProjectItem1 path='https://github.com/' title='Project Name' desc='My main area of expertise currently is in front-end web development(client side of the web)...' />
-                <ProjectItem path='https://github.com/' title='Project Name' desc='My main area of expertise currently is in front-end web development(client side of the web)...' />
                 <ProjectItem2 path='https://github.com/' title='Project Name' desc='My main area of expertise currently is in front-end web development(client side of the web)...' />
 
             </section>
