@@ -14,15 +14,15 @@ export default function Hero() {
 
                     <article className=' text-white ml-32'>
                         <h1 className='sm:text-7xl text-3xl pb-2 capitalize'>
-                            <span className='text-hover font-head tracking-wider animate-pulse'>H</span>
-                            <span className='text-hover font-head tracking-wider animate-pulse'>e</span>
-                            <span className='text-hover font-head tracking-wider animate-pulse'>l</span>
-                            <span className='text-hover font-head tracking-wider animate-pulse'>l</span>
-                            <span className='text-hover font-head tracking-wider animate-pulse'>o</span>
-                            <span className='text-hover font-head tracking-wider animate-pulse'>, I</span>
-                            <span className='text-hover font-head tracking-wider animate-pulse'>'m</span>
-                            <span className='text-yellow-400 capitalize sm:text-7xl text-3xl font-Name animate-pulse'> Subhadip</span></h1>
-                        <Typist className='sm:text-3xl text-md mt-4 capitalize text-green-500' sentences={['Android & Web Developer', 'creative designs', 'Open Source Contributor', 'In love with communities']} loop={true} />
+                            <span className='text-hover font-head tracking-wider '>H</span>
+                            <span className='text-hover font-head tracking-wider '>e</span>
+                            <span className='text-hover font-head tracking-wider '>l</span>
+                            <span className='text-hover font-head tracking-wider '>l</span>
+                            <span className='text-hover font-head tracking-wider  '>o</span>
+                            <span className='text-hover font-head tracking-wider '>, I</span>
+                            <span className='text-hover font-head tracking-wider '>'m</span>
+                            <span className='text-yellow-400 capitalize sm:text-7xl text-3xl font-Name'> Subhadip</span></h1>
+                        <Typist className='sm:text-3xl text-md mt-4 capitalize text-green-500' sentences={['Android Developer', 'Mobile Designs', 'Open Source Contributor', 'Product Designs']} loop={true} />
                         <section className='flex mt-12'>
                             <section className=''>
                                 <AwesomeButton type="primary" ripple='true'>About Me</AwesomeButton>
@@ -33,7 +33,7 @@ export default function Hero() {
 
                         </section>
                     </article>
-                    <img className='' src='heroPage.png' alt='error'></img>
+                    <img className='opacity-40' src='hero_main.png' alt='error'></img>
 
 
 
@@ -42,9 +42,9 @@ export default function Hero() {
 
 
                     <article className='text-white'>
-                        <h1 className='text-3xl pb-2 capitalize text-center font-head text-hover animate-pulse'>Hello, I'm <span className='text-yellow-400 capitalize font-Name'>Subhadip</span></h1>
+                        <h1 className='text-3xl pb-2 capitalize text-center font-head text-hover'>Hello, I'm <span className='text-yellow-400 capitalize font-Name'>Subhadip</span></h1>
                         <article className='flex justify-center items-center'>
-                            <Typist className='sm:text-3xl text-md mt-8 capitalize text-green-500' sentences={['android & Web Developer', 'creative designs', 'Open Source Contributor', 'In love with communities']} loop={true} />
+                        <Typist className='sm:text-3xl text-md mt-4 capitalize text-green-500' sentences={['Android Developer', 'Mobile Designs', 'Open Source Contributor', 'Product Designs']} loop={true} />
                         </article>
                         <section className='flex justify-center mt-8'>
                             <section className=''>
@@ -56,7 +56,7 @@ export default function Hero() {
                         </section>
                     </article>
 
-                    <img className='object-fill h-[280px]' src='heroPage.png' alt='error'></img>
+                    <img className='object-fill h-[280px] opacity-40' src='hero_main.png' alt='error'></img>
 
                 </main>
             </div>

@@ -20,7 +20,7 @@ export default function Head() {
         <Router>
         
             <div className='relative'>
-                <nav className='sm:fixed sm:top-0 sm:right-0 sm:left-0 radial-gradient text-white h-16 flex justify-between items-center'>
+                <nav className='radial-gradient text-white h-16 flex justify-between items-center'>
                     <img className='w-24 p-2 h-20 cursor-pointer' src='logoNoBg.png' alt='logo'></img>
                     <ul className='sm:flex hidden'>
                         <li className='p-2'><L className='hover:text-yellow-400' to='#home' smooth>Home</L></li>
