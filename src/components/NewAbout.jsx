@@ -20,7 +20,7 @@ export default function NewAbout() {
 
   return (
 
-    <div>
+    <div id='about'>
     <div className='hidden sm:flex mx-32 justify-center items-center'>
     
     <div className=''>
