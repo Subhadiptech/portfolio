@@ -22,13 +22,13 @@ export default function Hero() {
                             <span className='text-hover font-head tracking-wider '>, I</span>
                             <span className='text-hover font-head tracking-wider '>'m</span>
                             <span className='text-yellow-400 capitalize sm:text-7xl text-3xl font-Name'> Subhadip</span></h1>
-                        <Typist className='sm:text-3xl text-md mt-4 capitalize text-green-500' sentences={['Android Developer', 'Mobile Designs', 'Open Source Contributor', 'Product Designs']} loop={true} />
+                        <Typist className='sm:text-3xl text-md mt-4 capitalize text-green-500' sentences={['Android Developer','Freelancer', 'Mobile Designs', 'Open Source Contributor', 'Product Designs']} loop={true} />
                         <section className='flex mt-12'>
                             <section className=''>
-                                <AwesomeButton type="primary" ripple='true'>About Me</AwesomeButton>
+                                <AwesomeButton type="primary" ripple='true'><a href='mailto:subhadipdhn@gmail.com' target='_blank'>Hire me</a></AwesomeButton>
                             </section>
                             <section className='ml-4'>
-                                <AwesomeButton type="primary" ripple='true'>Download CV</AwesomeButton>
+                                <AwesomeButton type="primary" ripple='true'><a href='CV_NEW.pdf' download>Download CV</a></AwesomeButton>
                             </section>
 
                         </section>
@@ -44,14 +44,14 @@ export default function Hero() {
                     <article className='text-white'>
                         <h1 className='text-3xl pb-2 capitalize text-center font-head text-hover'>Hello, I'm <span className='text-yellow-400 capitalize font-Name'>Subhadip</span></h1>
                         <article className='flex justify-center items-center'>
-                        <Typist className='sm:text-3xl text-md mt-4 capitalize text-green-500' sentences={['Android Developer', 'Mobile Designs', 'Open Source Contributor', 'Product Designs']} loop={true} />
+                        <Typist className='sm:text-3xl text-md mt-4 capitalize text-green-500' sentences={['Android Developer','Freelancer', 'Mobile Designs', 'Open Source Contributor', 'Product Designs']} loop={true} />
                         </article>
                         <section className='flex justify-center mt-8'>
                             <section className=''>
-                                <AwesomeButton type="primary" ripple='true'>About Me</AwesomeButton>
+                                <AwesomeButton type="primary" ripple='true'><a href='mailto:subhadipdhn@gmail.com' target='_blank'>Hire me</a></AwesomeButton>
                             </section>
                             <section className='ml-4'>
-                                <AwesomeButton type="primary" ripple='true'>Download CV</AwesomeButton>
+                                <AwesomeButton type="primary" ripple='true'><a href='CV_NEW.pdf' download>Download CV</a></AwesomeButton>
                             </section>
                         </section>
                     </article>

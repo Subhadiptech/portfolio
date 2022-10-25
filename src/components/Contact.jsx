@@ -6,9 +6,7 @@ import { SiGmail } from 'react-icons/si'
 export default function Contact() {
     return (
         <div className='mt-8 pb-8 bg-transaprent' id='contact'>
-
             <main className='block text-center'>
-
                <p className='text-4xl sm:text-8xl text-sky-500'>contact</p>
             <p className='text-6xl sm:text-[10rem] text-yellow-400 mt-[-24px] ml-12 sm:mt-[-64px] sm:ml-16'>Me</p>
                 </main>
