@@ -26,9 +26,9 @@ export default function Head() {
                         <li className='p-2'><L className='hover:text-yellow-400' to='#home' smooth>Home</L></li>
                         <li className='p-2'><L className='hover:text-yellow-400' to='#about' smooth>About</L></li>
                         <li className='p-2'><L className='hover:text-yellow-400' to='#projects' smooth>Projects</L></li>
-                        <li className='p-2'><L className='hover:text-yellow-400' to=''>Blog</L></li>
+                        <li className='p-2'><a className='hover:text-yellow-400' href='https://learndroid.hashnode.dev/' target='_blank'>Blog</a></li>
                         <section className='mr-4 ml-2'>
-                                <AwesomeButton type="primary" ripple='true'>Contact Me</AwesomeButton>
+                                <AwesomeButton type="secondary" ripple='true'><L className='' to='#contact' smooth>Contact Me</L></AwesomeButton>
                             </section>
                     </ul>
                     <button className='sm:hidden' onClick={toggleMenu}><GiHamburgerMenu className='sm:hidden mx-4'/></button>
