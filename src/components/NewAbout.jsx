@@ -27,7 +27,7 @@ export default function NewAbout() {
     <p className='text-8xl text-sky-500'>about</p>
     <p className='text-[10rem] text-yellow-400 mt-[-90px] ml-16'>Me</p>
 
-    <p className='text-gray-300 w-[70%] text-xl'>I am Subhadipjshdfk sejhfk hwekf hewzkhf kewfkgjhszekjhfkeszhfkhewkfnjkeA Hg kfEN ghekl gklzeshg l,sehig leszlghilz,sekgl zeshgl hiesl ghlskzehigl,szheg klhszelkghilszkhigl szhelg ihszlg ilzsehiglszihlighszelkghileszhig lszjh liegihlsz ehijg lzsheg ilishze lghszl ,zdshfkaN;f :AfhlWIHgljES ljg lsehg lshelg eJSLofgl ejglSJEgl nslegheszg k le sh gsezhgiesih giohe w n0pk ;lhi glEJgio   i hwleghezlghlwehglw o o osehgkzeshgleshg ewhnes khgkeh Awf'o hszlg ilzsehiglszihlighszelkghileszhig lszjh liegihlsz ehijg lzsheg ilishze lghszl ,zdshfkaN;f :AfhlWIHgljES ljg lsehg lshelg eJSLofgl ejglSJEgl nslegheszg k le sh gsezhgiesih giohe w n0pk ;lhi glEJgio   i hwleghezlghlwehglw o o osehgkzeshgleshg ewhnes khgkeh Awf'osa</p>
+    <p className='text-gray-300 w-[70%] text-xl'>I am Subhadip from India, student at NIT Jamshedpur pursuing B.tech, and  a self-taught Android Developer with an experience of working in a Fintech startup for last 8 months. I also take up freelance projects related to Android development and always try to satisfy them with best designs and features. I also love to work in communities and regular contributions on open source projects which matches my skills and interests. </p>
     </div>
 
     <article className=''>
@@ -47,7 +47,7 @@ export default function NewAbout() {
     <p className='text-4xl text-sky-500 text-center'>about</p>
     <p className='text-6xl text-yellow-400 mt-[-30px] ml-12 text-center'>Me</p>
 
-    <p className='text-gray-300 text-md text-center'>I am Subhadipjshdfk sejhfk hwekf hewzkhf kewfkgjhszekjhfkeszhfkhewkfnjkeA Hg kfEN ghekl gklzeshg l,sehig leszlghilz,sekgl zeshgl hiesl ghlskzehigl,szheg klhszelkghilszkhigl szhelg ihszlg ilzsehiglszihlighszelkghileszhig lszjh liegihlsz ehijg lzsheg ilishze lghszl ,zdshfkaN;f :AfhlWIHgljES ljg lsehg lshelg eJSLofgl ejglSJEgl nslegheszg k le sh gsezhgiesih giohe w n0pk ;lhi glEJgio</p>
+    <p className='text-gray-300 text-md text-center'>I am Subhadip from India, student at NIT Jamshedpur pursuing B.tech, and  a self-taught Android Developer with an experience of working in a Fintech startup for last 8 months. I also take up freelance projects related to Android development and always try to satisfy them with best designs and features. I also love to work in communities and regular contributions on open source projects which matches my skills and interests.</p>
     </div>
 
     <article className='text-center'>

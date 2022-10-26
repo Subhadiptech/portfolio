@@ -5,9 +5,9 @@ import Tilt from 'react-parallax-tilt';
 
 export default function ProjectItem2(props) {
     const data = [
-        { value: 'React', count: 35 },
+        { value: 'Android', count: 35 },
         { value: 'Firebase', count: 30 },
-        { value: 'Tailwind', count: 28 },
+        { value: 'Java', count: 28 },
 
     ]
     return (
@@ -16,7 +16,7 @@ export default function ProjectItem2(props) {
             <div className='custom-bg py-8 sw-[32rem] sm:w-[32rem] border-t-2 border-sky-500 drop-shadow-lg custom-shadow px-2 mx-4 overflow-hidden mt-4'>
 
                 <aside className='flex flex-col items-start ml-4 mt-2'>
-                    <h1 className='uppercase tracking-wide text-sky-500'>React Application</h1>
+                    <h1 className='uppercase tracking-wide text-sky-500'>Android Application</h1>
                     <h1 className='text-white hover:text-sky-500 capitalize text-2xl sm:text-4xl tracking-wide'>{props.title}</h1>
                 </aside>
                 <p className='text-white mx-4 mt-4'>

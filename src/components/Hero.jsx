@@ -28,7 +28,7 @@ export default function Hero() {
                                 <AwesomeButton type="primary" ripple='true'><a href='mailto:subhadipdhn@gmail.com' target='_blank'>Hire me</a></AwesomeButton>
                             </section>
                             <section className='ml-4'>
-                                <AwesomeButton type="primary" ripple='true'><a href='CV_NEW.pdf' download>Download CV</a></AwesomeButton>
+                                <AwesomeButton type="primary" ripple='true'><a href='cv.pdf' target='_blank' download>Download CV</a></AwesomeButton>
                             </section>
 
                         </section>
@@ -51,7 +51,7 @@ export default function Hero() {
                                 <AwesomeButton type="primary" ripple='true'><a href='mailto:subhadipdhn@gmail.com' target='_blank'>Hire me</a></AwesomeButton>
                             </section>
                             <section className='ml-4'>
-                                <AwesomeButton type="primary" ripple='true'><a href='CV_NEW.pdf' download>Download CV</a></AwesomeButton>
+                                <AwesomeButton type="primary" ripple='true'><a href='cv.pdf' download>Download CV</a></AwesomeButton>
                             </section>
                         </section>
                     </article>

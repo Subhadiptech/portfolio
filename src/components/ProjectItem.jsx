@@ -16,29 +16,28 @@ export default function ProjectItem(props) {
     return (
 
       <Tilt>
+      <div className='custom-bg py-8 sw-[32rem] sm:w-[32rem] border-t-2 border-sky-500 drop-shadow-lg custom-shadow px-2 mx-4 overflow-hidden mt-4'>
 
-        <div className='custom-bg py-8 w-[32rem] sm:w-[32rem] border-t-2 border-red-600 drop-shadow-lg custom-shadow px-2 overflow-hidden mt-4 mx-4'>
+          <aside className='flex flex-col items-start ml-4 mt-2'>
+              <h1 className='uppercase tracking-wide text-sky-500'>Android Application</h1>
+              <h1 className='text-white hover:text-sky-500 capitalize text-2xl sm:text-4xl tracking-wide'>{props.title}</h1>
+          </aside>
+          <p className='text-white mx-4 mt-4'>
+              {props.desc}</p>
 
-        <aside className='flex flex-col items-start ml-4 mt-4'>
-        <h1 className='uppercase tracking-wide text-red-600'>Android Development</h1>
-        <h1 className='text-white hover:text-red-600 capitalize text-2xl sm:text-4xl tracking-wide font-bold'>{props.title}</h1>
-        </aside>
-        <p className='text-gray-300 mx-4 mt-4'>
-        {props.desc}</p>
+          <section className='flex justify-between gap-1 mx-4 mt-8 items-center'>
+              <TagCloud
+                  minSize={8}
+                  maxSize={20}
+                  tags={data}
+                  onClick={tag => {
+                      //todo:hover color change
+                  }}
 
-        <section className='flex justify-between gap-1 mx-4 mt-8 items-center'>
-        <TagCloud
-        minSize={8}
-        maxSize={20}
-        tags={data}
-      />
-       
-        <a href={props.path} target='_blank'><GrGithub className='fill-white h-8 w-8 cursor-pointer hover:fill-red-600'></GrGithub></a>
-        </section>
-
-           
-
-        </div>
-        </Tilt>
+              />
+              <a href={props.path} target='_blank'><GrGithub className='fill-white h-8 w-8 cursor-pointer hover:fill-sky-500'></GrGithub></a>
+          </section>
+      </div>
+  </Tilt>
     )
 }

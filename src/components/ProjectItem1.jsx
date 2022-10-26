@@ -5,17 +5,17 @@ import Tilt from 'react-parallax-tilt';
 
 export default function ProjectItem1(props) {
     const data = [
-        { value: 'React', count: 35 },
-        { value: 'Nodejs', count: 30 },
-        { value: 'MongoDB', count: 28 },
-        { value: 'Expressjs', count: 12 }
+        { value: 'Android', count: 35 },
+        { value: 'Java', count: 30 },
+        { value: 'Firebase', count: 28 },
+        { value: 'SMS API', count: 12 }
       ]
     return (
         <Tilt>
         <div className='custom-bg py-8 sw-[32rem] sm:w-[32rem] border-t-2 border-yellow-500 drop-shadow-lg custom-shadow px-2 mx-4 overflow-hidden mt-4'>
            
             <aside className='flex flex-col items-start ml-4 mt-2'>
-            <h1 className='uppercase tracking-wide text-yellow-500'>Web Development</h1>
+            <h1 className='uppercase tracking-wide text-yellow-500'>Android Development</h1>
             <h1 className='text-white hover:text-yellow-500 capitalize text-2xl sm:text-4xl tracking-wide'>{props.title}</h1>
             </aside>
             <p className='text-white mx-4 mt-4'>
